@@ -1,0 +1,27 @@
+.card {
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  padding: 1rem;
+  & > * {
+    margin-bottom: 1rem;
+  }
+}
+
+.card__img {
+  img {
+    width: 100%;
+  }
+}
+
+.card__rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__rating__number {
+  background-color: rgb(0, 174, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+}
